@@ -1,0 +1,121 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+* {
+    background-color: #e5e5e5;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+
+}
+
+.logoAlura {
+    margin-left: 10px;
+    padding-top: 30px;
+    width: 6%;
+}
+
+main {
+    display: flex;
+    margin-bottom: 50px;
+    margin-left: 80px;
+}
+
+.text-area {
+    border: none;
+    color: #0A3871;
+    margin-top: 90px;
+    text-transform: lowercase;
+}
+
+::placeholder {
+    color: #0a3871;
+}
+
+.text-area:focus {
+    outline: none;
+}
+
+.mensagem {
+    background: white;
+    background-image: url(/assets/imagem1.png);
+    background-repeat: no-repeat;
+    border: none;
+    border-radius: 24px;
+    color: #0A3871;
+    margin-left: 98px;
+    margin-top: 2px;
+    padding-left: 20px;
+    position: fixed;
+}
+
+.mensagem:focus {
+    outline: none;
+}
+
+.botao {
+    display: flex;
+    margin-top: 18px;
+    gap: 20px;
+}
+
+.botao-desencriptar {
+    background: #D8DFE8;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: rgb(25, 66, 112);
+    cursor: pointer;
+    height: 67px;
+    width: 328px;
+}
+
+.botao-encriptar {
+    background: #0A3871;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: white;
+    cursor: pointer;
+    height: 67px;
+    width: 328px;
+}
+
+.botao-copiar {
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: #0A3871;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 108px;
+    margin-top: 402px;
+    position: absolute;
+    width: 336px;
+}
+
+.botao-limpar {
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: #1745EB;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 108px;
+    margin-top: 495px;
+    position: absolute;
+    width: 336px;
+}
+
+.informacao {
+    color: #495057;
+    font-size: 8px;
+}
+
+.rodape {
+    color: #0A3871;
+    border: 2px solid  #0A3871;
+    border-radius: 24px;
+    margin: 98px;
+    padding: 2px;
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    font-style: oblique;
+}

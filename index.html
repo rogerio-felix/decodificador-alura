@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Codificador</title>
+    <link rel="stylesheet" href="./styles/style.css">
+
+</head>
+
+<body>
+    <header>
+        <img class="logoAlura" src="assets/imagem2.png" alt="Imagem do Logo da Alura">
+    </header>
+    <main>
+        <section>
+            <textarea class="text-area" cols="41" , rows="4" placeholder="digite seu texto aqui"></textarea>
+            <div class="informacao">
+                <h6>Apenas letras minúsculas e sem acentos.</h6>
+            </div>
+            <div class="botao">
+                <button class="botao-encriptar" onclick="btnEncriptar()">   Criptografar</button>
+                <button class="botao-desencriptar" onclick="btnDesencriptar()">Descriptografar</button>
+            </div>
+
+        </section>
+
+        <section>
+            <textarea class="mensagem" cols="20" , rows="12"></textarea>
+            <button class="botao-copiar" onclick="btnCopiar()"> Copiar</button>
+            <button class="botao-limpar" onclick="btnLimpar()"> Limpar</button>
+        </section>
+    </main>
+   
+    <footer class="rodape">
+        <p>Developed by Rogério-Félix-dev - 2024 - T 7 Alura ONE</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
